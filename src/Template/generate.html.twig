@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+
+    <title>Сиди шифруй!</title>
+</head>
+
+<body>
+<a href="/encrypt">Зашифровать</a>
+<a href="/decrypt">Расшифровать</a>
+<a href="/generate">Сгенерировать ключи</a>
+
+<form method="post" action="/generate">
+    <input type="text" name="p" placeholder="P">
+    <input type="text" name="q" placeholder="Q">
+    <input type="submit" name="submit" value="Сгенерировать">
+</form>
+<p>{{ value }}</p>
+</body>
+</html>

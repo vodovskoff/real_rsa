@@ -1,0 +1,17 @@
+{
+    "name": "user/real_rsa",
+    "autoload": {
+        "psr-4": {
+            "User\\RealRsa\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "vodovskoff",
+            "email": "vodovskov.ea@students.dvfu.ru"
+        }
+    ],
+    "require": {
+        "twig/twig": "3.0"
+    }
+}
